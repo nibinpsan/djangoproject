@@ -5,6 +5,6 @@ from django.http import HttpResponse
 
 def index(request):
     # return HttpResponse('HELLO FROM POST')
-    return render(request, 'post/layout.html')
+    return render(request, 'post/index.html')
 
 
