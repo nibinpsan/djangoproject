@@ -3,7 +3,7 @@ import mysql.connector
 import re
 
 # testing commit
-
+# new line added for GIT test
 database = mysql.connector.connect(host="192.168.1.197", user="nibinpsan", passwd="dhanya123")
 cursor = database.cursor()
 
